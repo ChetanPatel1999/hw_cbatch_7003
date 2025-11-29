@@ -5,5 +5,5 @@ void main()
    a=12.5;
    b=5.3;
    c=a+b;
-   printf("addition = %.1f",c);	
+   printf("addition = %.1f",c);	  
 }
