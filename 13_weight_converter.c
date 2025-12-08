@@ -4,7 +4,7 @@ void main()
 {
     float kg, gram;
     printf("enter weight in kg : ");
-    scanf("%f", &kg); // 2.5
+    scanf("%f", &kg); // 3.2
     gram = kg * 1000;
     printf("weight in gram = %.0f gram", gram);
 }
