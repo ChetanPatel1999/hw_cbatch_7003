@@ -4,6 +4,6 @@ void main()
 {
     int num;
     printf("enter a num : ");
-    scanf("%d", &num);//20
+    scanf("%d", &num);//34
     num % 2 == 0 ? printf("num is even") : printf("num is odd");
 }
