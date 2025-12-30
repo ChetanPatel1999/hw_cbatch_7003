@@ -2,7 +2,7 @@
 #include <stdio.h>
 void main()
 {
-    for (;;)
+    for ( ; ; )
     {
         printf("my dear students please complete your task on time\n");
     }
