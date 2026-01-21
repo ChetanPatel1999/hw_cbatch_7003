@@ -3,11 +3,11 @@
 void main()
 {
     int i, j;
-    for (i = 1; i <= 5; i++) // 2
+    for (i = 5; i >= 1; i--) // 2
     {
-        for (j = 1; j <= 5; j++) // 2
+        for (j = 5; j >= i; j--) // 6
         {
-            printf("* ");
+            printf("%d ", i);
         }
         printf("\n");
     }
