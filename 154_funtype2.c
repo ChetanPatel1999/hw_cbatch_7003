@@ -40,14 +40,31 @@ void range(int s, int e)
         factorial(i);
     }
 }
+void factors(int num)
+{
+    // 12:- 1 2 3 4 6 12
+    int i;
+    printf("factors of %d : ", num);
+    for (i = 1; i <= num; i++)
+    {
+        if (num % i == 0)
+        {
+            printf("%d ", i);
+        }
+    }
+    printf("\n");
+}
 void main()
 {
-    range(1, 5);
-    printf("--------------------\n");
-    range(6, 9);
+    factors(12);
+    factors(15);
+    factors(20);
+    //     range(1, 5);
+    //     printf("--------------------\n");
+    //     range(6, 9);
 
-    printf("--------------------\n");
-    range(12, 13);
+    //     printf("--------------------\n");
+    //     range(12, 13);
 
     // int r, s;
     // r = 70;
