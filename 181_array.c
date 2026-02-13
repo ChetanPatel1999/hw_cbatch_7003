@@ -4,7 +4,7 @@ void main()
 {
     int n;
     printf("enter array size : ");
-    scanf("%d", &n);
+    scanf("%d", &n);//8
     int a[n];
     int i;
     printf("enter array elements : \n");
@@ -28,4 +28,6 @@ void main()
     }
 
     printf("\ntotal 4 divisible counts = %d", count);
+
+    
 }
